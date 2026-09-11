@@ -1,0 +1,394 @@
+2026-09-09 10:41:19.273043+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+
+    drop table if exists user cascade  [42001-240]
+2026-09-09 10:41:19.286678+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    create table [*]user (\000d\000a        user_id bigint not null,\000d\000a        user_name varchar(255),\000d\000a        userpassword varchar(255),\000d\000a        primary key (user_id)\000d\000a    )"; expected "identifier"; SQL statement:
+
+    create table user (
+        user_id bigint not null,
+        user_name varchar(255),
+        userpassword varchar(255),
+        primary key (user_id)
+    ) [42001-240]
+2026-09-09 10:41:19.291689+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    alter table if exists user_user_roles \000d\000a       add constraint FKi3lo721bl2i2halonlque1vf5 \000d\000a       foreign key (user_user_id) \000d\000a       references [*]user"; expected "identifier"; SQL statement:
+
+    alter table if exists user_user_roles 
+       add constraint FKi3lo721bl2i2halonlque1vf5 
+       foreign key (user_user_id) 
+       references user [42001-240]
+2026-09-09 10:41:19.312692+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+
+    drop table if exists user cascade  [42001-240]
+2026-09-09 10:46:31.540356+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+
+    drop table if exists user cascade  [42001-240]
+2026-09-09 10:46:31.554356+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    create table [*]user (\000d\000a        user_id bigint not null,\000d\000a        user_name varchar(255),\000d\000a        userpassword varchar(255),\000d\000a        primary key (user_id)\000d\000a    )"; expected "identifier"; SQL statement:
+
+    create table user (
+        user_id bigint not null,
+        user_name varchar(255),
+        userpassword varchar(255),
+        primary key (user_id)
+    ) [42001-240]
+2026-09-09 10:46:31.558355+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    alter table if exists user_user_roles \000d\000a       add constraint FKi3lo721bl2i2halonlque1vf5 \000d\000a       foreign key (user_user_id) \000d\000a       references [*]user"; expected "identifier"; SQL statement:
+
+    alter table if exists user_user_roles 
+       add constraint FKi3lo721bl2i2halonlque1vf5 
+       foreign key (user_user_id) 
+       references user [42001-240]
+2026-09-09 10:46:32.662960+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+
+    drop table if exists user cascade  [42001-240]
+2026-09-09 10:49:24.289310+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+
+    drop table if exists user cascade  [42001-240]
+2026-09-09 10:49:24.303310+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    create table [*]user (\000d\000a        user_id bigint not null,\000d\000a        user_name varchar(255),\000d\000a        userpassword varchar(255),\000d\000a        primary key (user_id)\000d\000a    )"; expected "identifier"; SQL statement:
+
+    create table user (
+        user_id bigint not null,
+        user_name varchar(255),
+        userpassword varchar(255),
+        primary key (user_id)
+    ) [42001-240]
+2026-09-09 10:49:24.307306+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    alter table if exists user_user_roles \000d\000a       add constraint FKi3lo721bl2i2halonlque1vf5 \000d\000a       foreign key (user_user_id) \000d\000a       references [*]user"; expected "identifier"; SQL statement:
+
+    alter table if exists user_user_roles 
+       add constraint FKi3lo721bl2i2halonlque1vf5 
+       foreign key (user_user_id) 
+       references user [42001-240]
+2026-09-09 10:49:25.236366+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+
+    drop table if exists user cascade  [42001-240]
+2026-09-09 10:53:47.438079+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+
+    drop table if exists user cascade  [42001-240]
+2026-09-09 10:53:47.452080+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    create table [*]user (\000d\000a        user_id bigint not null,\000d\000a        user_name varchar(255),\000d\000a        userpassword varchar(255),\000d\000a        primary key (user_id)\000d\000a    )"; expected "identifier"; SQL statement:
+
+    create table user (
+        user_id bigint not null,
+        user_name varchar(255),
+        userpassword varchar(255),
+        primary key (user_id)
+    ) [42001-240]
+2026-09-09 10:53:47.456079+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    alter table if exists user_user_roles \000d\000a       add constraint FKi3lo721bl2i2halonlque1vf5 \000d\000a       foreign key (user_user_id) \000d\000a       references [*]user"; expected "identifier"; SQL statement:
+
+    alter table if exists user_user_roles 
+       add constraint FKi3lo721bl2i2halonlque1vf5 
+       foreign key (user_user_id) 
+       references user [42001-240]
+2026-09-09 10:53:48.571821+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+
+    drop table if exists user cascade  [42001-240]
+2026-09-09 11:11:29.953334+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+
+    drop table if exists user cascade  [42001-240]
+2026-09-09 11:11:29.968328+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    create table [*]user (\000d\000a        user_id bigint not null,\000d\000a        user_name varchar(255),\000d\000a        userpassword varchar(255),\000d\000a        primary key (user_id)\000d\000a    )"; expected "identifier"; SQL statement:
+
+    create table user (
+        user_id bigint not null,
+        user_name varchar(255),
+        userpassword varchar(255),
+        primary key (user_id)
+    ) [42001-240]
+2026-09-09 11:11:29.972328+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    alter table if exists user_user_roles \000d\000a       add constraint FKi3lo721bl2i2halonlque1vf5 \000d\000a       foreign key (user_user_id) \000d\000a       references [*]user"; expected "identifier"; SQL statement:
+
+    alter table if exists user_user_roles 
+       add constraint FKi3lo721bl2i2halonlque1vf5 
+       foreign key (user_user_id) 
+       references user [42001-240]
+2026-09-09 11:11:32.137350+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+
+    drop table if exists user cascade  [42001-240]
+2026-09-09 11:12:24.886581+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+
+    drop table if exists user cascade  [42001-240]
+2026-09-09 11:12:24.898585+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    create table [*]user (\000d\000a        user_id bigint not null,\000d\000a        user_name varchar(255),\000d\000a        userpassword varchar(255),\000d\000a        primary key (user_id)\000d\000a    )"; expected "identifier"; SQL statement:
+
+    create table user (
+        user_id bigint not null,
+        user_name varchar(255),
+        userpassword varchar(255),
+        primary key (user_id)
+    ) [42001-240]
+2026-09-09 11:12:24.899580+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    alter table if exists user_user_roles \000d\000a       add constraint FKi3lo721bl2i2halonlque1vf5 \000d\000a       foreign key (user_user_id) \000d\000a       references [*]user"; expected "identifier"; SQL statement:
+
+    alter table if exists user_user_roles 
+       add constraint FKi3lo721bl2i2halonlque1vf5 
+       foreign key (user_user_id) 
+       references user [42001-240]
+2026-09-09 11:18:54.336794+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+
+    drop table if exists user cascade  [42001-240]
+2026-09-09 11:19:38.882890+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+
+    drop table if exists user cascade  [42001-240]
+2026-09-09 11:19:38.895898+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    create table [*]user (\000d\000a        user_id bigint not null,\000d\000a        user_name varchar(255),\000d\000a        userpassword varchar(255),\000d\000a        primary key (user_id)\000d\000a    )"; expected "identifier"; SQL statement:
+
+    create table user (
+        user_id bigint not null,
+        user_name varchar(255),
+        userpassword varchar(255),
+        primary key (user_id)
+    ) [42001-240]
+2026-09-09 11:19:38.897884+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    alter table if exists user_user_roles \000d\000a       add constraint FKi3lo721bl2i2halonlque1vf5 \000d\000a       foreign key (user_user_id) \000d\000a       references [*]user"; expected "identifier"; SQL statement:
+
+    alter table if exists user_user_roles 
+       add constraint FKi3lo721bl2i2halonlque1vf5 
+       foreign key (user_user_id) 
+       references user [42001-240]
+2026-09-09 11:23:16.247434+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+
+    drop table if exists user cascade  [42001-240]
+2026-09-09 11:23:21.596169+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+
+    drop table if exists user cascade  [42001-240]
+2026-09-09 11:23:21.607168+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    create table [*]user (\000d\000a        user_id bigint not null,\000d\000a        user_name varchar(255),\000d\000a        userpassword varchar(255),\000d\000a        primary key (user_id)\000d\000a    )"; expected "identifier"; SQL statement:
+
+    create table user (
+        user_id bigint not null,
+        user_name varchar(255),
+        userpassword varchar(255),
+        primary key (user_id)
+    ) [42001-240]
+2026-09-09 11:23:21.609168+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    alter table if exists user_user_roles \000d\000a       add constraint FKi3lo721bl2i2halonlque1vf5 \000d\000a       foreign key (user_user_id) \000d\000a       references [*]user"; expected "identifier"; SQL statement:
+
+    alter table if exists user_user_roles 
+       add constraint FKi3lo721bl2i2halonlque1vf5 
+       foreign key (user_user_id) 
+       references user [42001-240]
+2026-09-09 11:38:42.348161+05:30 jdbc[16]: null
+org.h2.message.DbException: The connection was not closed by the application and is garbage collected [90018-240]
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.jdbc.JdbcConnection.closeOld(JdbcConnection.java:217)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:134)
+	at org.h2.util.JdbcUtils.getConnection(JdbcUtils.java:291)
+	at org.h2.server.web.WebServer.getConnection(WebServer.java:811)
+	at org.h2.server.web.WebApp.login(WebApp.java:1038)
+	at org.h2.server.web.WebApp.process(WebApp.java:226)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:176)
+	at org.h2.server.web.JakartaWebServlet.doGet(JakartaWebServlet.java:129)
+	at org.h2.server.web.JakartaWebServlet.doPost(JakartaWebServlet.java:166)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:132)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:59)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$2(FilterChainProxy.java:235)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:376)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:181)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:110)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:96)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:237)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:195)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:317)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:355)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:272)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:535)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:86)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:71)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:347)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:406)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:71)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1307)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:2036)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:74)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:949)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:483)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: The connection was not closed by the application and is garbage collected [90018-240]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:690)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 82 more
+2026-09-09 11:39:48.157717+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+
+    drop table if exists user cascade  [42001-240]
+2026-09-09 11:39:57.122528+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+
+    drop table if exists user cascade  [42001-240]
+2026-09-09 11:39:57.133648+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    create table [*]user (\000d\000a        user_id bigint not null,\000d\000a        user_name varchar(255),\000d\000a        userpassword varchar(255),\000d\000a        primary key (user_id)\000d\000a    )"; expected "identifier"; SQL statement:
+
+    create table user (
+        user_id bigint not null,
+        user_name varchar(255),
+        userpassword varchar(255),
+        primary key (user_id)
+    ) [42001-240]
+2026-09-09 11:39:57.135591+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    alter table if exists user_user_roles \000d\000a       add constraint FKi3lo721bl2i2halonlque1vf5 \000d\000a       foreign key (user_user_id) \000d\000a       references [*]user"; expected "identifier"; SQL statement:
+
+    alter table if exists user_user_roles 
+       add constraint FKi3lo721bl2i2halonlque1vf5 
+       foreign key (user_user_id) 
+       references user [42001-240]
+2026-09-09 11:48:02.942775+05:30 jdbc[3]: null
+org.h2.message.DbException: The connection was not closed by the application and is garbage collected [90018-240]
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.jdbc.JdbcConnection.closeOld(JdbcConnection.java:217)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:134)
+	at org.h2.Driver.connect(Driver.java:59)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:144)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:373)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:210)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:488)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:752)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:731)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: The connection was not closed by the application and is garbage collected [90018-240]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:690)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 16 more
+2026-09-09 11:48:02.945814+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+
+    drop table if exists user cascade  [42001-240]
+2026-09-09 11:48:07.630955+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+
+    drop table if exists user cascade  [42001-240]
+2026-09-09 11:48:07.641247+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    create table [*]user (\000d\000a        user_id bigint not null,\000d\000a        user_name varchar(255),\000d\000a        userpassword varchar(255),\000d\000a        primary key (user_id)\000d\000a    )"; expected "identifier"; SQL statement:
+
+    create table user (
+        user_id bigint not null,
+        user_name varchar(255),
+        userpassword varchar(255),
+        primary key (user_id)
+    ) [42001-240]
+2026-09-09 11:48:07.643246+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    alter table if exists user_user_roles \000d\000a       add constraint FKi3lo721bl2i2halonlque1vf5 \000d\000a       foreign key (user_user_id) \000d\000a       references [*]user"; expected "identifier"; SQL statement:
+
+    alter table if exists user_user_roles 
+       add constraint FKi3lo721bl2i2halonlque1vf5 
+       foreign key (user_user_id) 
+       references user [42001-240]
+2026-09-09 11:53:48.777690+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+
+    drop table if exists user cascade  [42001-240]
+2026-09-09 11:54:00.981434+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+
+    drop table if exists user cascade  [42001-240]
+2026-09-09 11:54:00.991427+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    create table [*]user (\000d\000a        user_id bigint not null,\000d\000a        user_name varchar(255),\000d\000a        userpassword varchar(255),\000d\000a        primary key (user_id)\000d\000a    )"; expected "identifier"; SQL statement:
+
+    create table user (
+        user_id bigint not null,
+        user_name varchar(255),
+        userpassword varchar(255),
+        primary key (user_id)
+    ) [42001-240]
+2026-09-09 11:54:00.993365+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    alter table if exists user_user_roles \000d\000a       add constraint FKi3lo721bl2i2halonlque1vf5 \000d\000a       foreign key (user_user_id) \000d\000a       references [*]user"; expected "identifier"; SQL statement:
+
+    alter table if exists user_user_roles 
+       add constraint FKi3lo721bl2i2halonlque1vf5 
+       foreign key (user_user_id) 
+       references user [42001-240]
+2026-09-09 12:00:36.561131+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+
+    drop table if exists user cascade  [42001-240]
+2026-09-09 12:00:36.577015+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    create table [*]user (\000d\000a        user_id bigint not null,\000d\000a        user_name varchar(255),\000d\000a        userpassword varchar(255),\000d\000a        primary key (user_id)\000d\000a    )"; expected "identifier"; SQL statement:
+
+    create table user (
+        user_id bigint not null,
+        user_name varchar(255),
+        userpassword varchar(255),
+        primary key (user_id)
+    ) [42001-240]
+2026-09-09 12:00:36.577015+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    alter table if exists user_user_roles \000d\000a       add constraint FKi3lo721bl2i2halonlque1vf5 \000d\000a       foreign key (user_user_id) \000d\000a       references [*]user"; expected "identifier"; SQL statement:
+
+    alter table if exists user_user_roles 
+       add constraint FKi3lo721bl2i2halonlque1vf5 
+       foreign key (user_user_id) 
+       references user [42001-240]
+2026-09-09 12:59:15.791235+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    drop table if exists [*]user cascade "; expected "identifier"; SQL statement:
+
+    drop table if exists user cascade  [42001-240]
